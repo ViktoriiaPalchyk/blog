@@ -644,3 +644,14 @@ body {
 .btn--blue:hover {
     background-color: #2c31b4;
 }
+
+.stories {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 15px;
+    grid-template-rows: 195px;
+}
+
+.stories_item {
+    background-color: antiquewhite;
+}
