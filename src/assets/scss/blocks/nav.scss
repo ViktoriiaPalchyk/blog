@@ -6,6 +6,10 @@
     position: relative;
 
     &:hover{
+        .nav_link{
+            background-color: $lighgreen;
+        }
+
         >.subnav{
             display: block;
         }
